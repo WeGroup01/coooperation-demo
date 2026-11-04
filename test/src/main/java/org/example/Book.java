@@ -1,5 +1,3 @@
-package org.example;
-
 import java.beans.Statement;
 
 public class Book {
@@ -28,6 +26,10 @@ public class Book {
         IO.println("添加成功");
     }
 
+    public Book() {
+        System.out.println("无参构造法创建一本新书成功");
+    }
+
     void UpdateDescribing (){
         String des;
         des = System.in.toString();
@@ -38,4 +40,10 @@ public class Book {
         String des;
         des = System.in.toString();
     }
+
+void main() {
+    Book b = new Book();
+    b.UpdateDescribing();
+    return;
+}
 
