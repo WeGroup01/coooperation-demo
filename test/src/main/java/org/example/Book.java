@@ -34,4 +34,8 @@ public class Book {
         IO.println("修改描述成功，修改后的描述为："+des);
     }
 }
+    void UpdateAuthor(){
+        String des;
+        des = System.in.toString();
+    }
 
